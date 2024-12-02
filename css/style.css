@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sour Gummy", sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+p {
+    font-family: cursive;
+}
+
+header {
+    background-image: url(/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.banner_txt {
+    background: rgba(252, 237, 32, 0.274);
+}
+
+.banner_txt>img {
+    max-width: 50%;
+}
+
+.promo-banner {
+    background-color: #D2D904;
+    color: #010440;
+    font-weight: 600;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+nav {
+    background-color: #262B8C;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 0 5rem;
+    display: inline-block;
+}
+
+.hero {
+    background-image: url(/banner_campa.jpeg);
+    background-position: top;
+    background-size: cover;
+    padding: 3rem;
+    text-align: center;
+}
+
+.contenedor_hero {
+    border-radius: 5px;
+    background: #d8d8d654;
+    box-shadow: 2px 2px 13px 3px rgba(182, 181, 181, 0.644);
+}
+
+.contenedor_hero>h2 {
+    color: #090cb8;
+    font-size: 2rem;
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.contenedor_hero>p {
+    font-family: cursive;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+
+.categories {
+    background: radial-gradient(circle, rgba(252, 241, 70, 1) 0%, rgba(127, 251, 63, 1) 97%);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.category-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.911);
+}
+
+.category-card>img {
+    border-radius: 5%;
+    width: 100%;
+    height: 60%;
+}
+
+.category-card>h3 {
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    color: #060f8a;
+}
+
+.category-card>p {
+    padding: 0.5rem;
+    font-weight: 600;
+}
+
+.brands {
+    background-color: white;
+    padding: 3rem;
+    text-align: center;
+}
+.brands>h2{
+    color:#010436;
+}
+.brands>p{
+    font-weight: 900;
+}
+.brand-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.brand-logo {
+    filter: grayscale(100%);
+    opacity: 0.7;
+    transition: all 0.3s ease;
+    max-width: 150px;
+    max-height: 100px;
+}
+
+.brand-logo:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+}
+
+.category-slider-container {
+    background: radial-gradient(circle, rgba(242, 203, 5, 1) 0%, rgba(211, 216, 21, 1) 52%, rgba(185, 227, 34, 1) 100%);
+    padding: 2rem 0;
+}
+
+.section-title {
+    text-align: center;
+    color: #010aa8;
+    font-size: 2rem;
+    margin-left: 23px;
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+}
+
+.category-slider {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 2rem auto;
+    overflow: hidden;
+    padding-bottom: 2rem;
+}
+
+.slider-container {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slider-item {
+    flex: 0 0 300px;
+    margin: 0 15px;
+    text-align: center;
+    background: #5bbbfc;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(46, 45, 45, 0.788);
+}
+
+.slider-item img {
+    max-width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.slider-item h3 {
+    color: #010436;
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.slider-item>p {
+    color: #000000;
+    font-weight: 900;
+}
+
+.slider-controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.slider-btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #010326;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+footer>p>a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #ffffff;
+}
+.card_contact>a{
+    text-decoration: none;
+    margin: 0 10px;
+}
+.card_contact>a>i{
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.btn {
+    background-color: #F20505;
+    color: white;
+    font-weight: 900;
+    font-family: "Sour Gummy", sans-serif;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    nav a {
+        margin: 0 1rem;
+        font-size: 0.9rem;
+    }
+
+    .features,
+    .brand-logos {
+        grid-template-columns: 1fr;
+    }
+
+    .slider-item {
+        flex: 0 0 250px;
+    }
+
+    .category-card img {
+        max-width: 100%;
+    }
+
+    .hero {
+        background-position: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero {
+        padding: 1.5rem;
+    }
+
+    .categories {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav a {
+        margin: 0.5rem 0;
+    }
+
+    .slider-item {
+        flex: 0 0 200px;
+    }
+    .brand-logo {
+        filter: grayscale(100%);
+        opacity: 0.7;
+        transition: all 0.3s ease;
+        max-width: 100px;
+        max-height: 50px;
+    }
+}
